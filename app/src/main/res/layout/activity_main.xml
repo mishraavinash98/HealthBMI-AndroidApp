@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mishraavinash98.bmicalculator.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Height Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etHeightMetre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Enter height in metres"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etHeightFeets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Enter Height in Feets"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etHeightInch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Enter Height in Inch"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:text="Weight Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Enter weight in kg"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Calculate BMI" />
+
+    <Button
+        android:id="@+id/btnViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="View History" />
+
+</LinearLayout>
